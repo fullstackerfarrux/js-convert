@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+body {
+  font-family: sans-serif;
+}
+.page {
+  background-color: #0052fe;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+
+  .box {
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+
+    h1 {
+      color: grey;
+    }
+
+    form {
+      position: relative;
+      .kirgizdi {
+        width: 450px;
+        height: 50px;
+        margin-top: 10px;
+        border: none;
+        border-bottom: 1px solid #0052fe;
+        font-size: 2rem;
+        padding: 5px 0 5px 10px;
+        color: #0052fe;
+      }
+      .pulingiz {
+        width: 450px;
+        height: 60px;
+        font-size: 30px;
+        padding: 10px;
+        margin-top: 20px;
+        border: 1px solid grey;
+        border-radius: 5px;
+      }
+
+      .aylandi {
+        width: 450px;
+        height: 60px;
+        font-size: 30px;
+        padding: 10px;
+        margin-top: 20px;
+        border: 1px solid grey;
+        border-radius: 5px;
+
+        .aylandi-usd {
+          display: block;
+        }
+      }
+      button {
+        width: 400px;
+        padding: 10px;
+        margin-top: 20px;
+        margin-left: 20px;
+        background-color: #0052fe;
+        border: none;
+        color: white;
+        border-radius: 10px;
+        font-size: 40px;
+      }
+    }
+    h2 {
+      color: #0052fe;
+      font-size: 30px;
+      text-align: center;
+      margin-top: 30px;
+    }
+  }
+}
